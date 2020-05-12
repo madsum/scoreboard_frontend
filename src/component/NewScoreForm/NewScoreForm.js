@@ -37,7 +37,7 @@ function NewScoreForm(props) {
     }
 
     return (
-      <form onSubmit={handleSubmit(onSubmit)} >
+      <form onSubmit={handleSubmit(onSubmit)} data-test="NewScoreForm" >
   
         <h2><b>Add New Score</b></h2>
         <br/>
