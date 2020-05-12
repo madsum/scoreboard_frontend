@@ -10,8 +10,9 @@ export class Home extends Component {
         <div className="lander">
 
           <form data-test="HomeForm">
-            <h2 className="h2">Score Board Service</h2>
-            <p className="p" >Please insert new score.</p>
+            <h3 className="homeTitle">Score Board Service</h3>
+            <h6 className="homeText" >Please insert new score.</h6>
+            <br/>
             <Button variant="btn btn-success" onClick={() => history.push('/AddScore/Add Score')}>Add Score</Button>
           </form>
         </div>

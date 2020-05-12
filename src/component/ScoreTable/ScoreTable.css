@@ -1,0 +1,17 @@
+.scoreTitle {
+    color: rgb(201, 35, 179);
+    letter-spacing: 1px;
+    text-transform: none;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+   }
+   
+   .h4 {
+       color: rgb(110, 108, 110);
+       letter-spacing: 1px;
+       text-transform: none;
+       justify-content: center;
+       text-align: center;
+       font-size: 20px;
+      }

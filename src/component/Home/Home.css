@@ -8,15 +8,16 @@
     font-weight: 600;
 }
 
-.h2 {
+.homeTitle {
  color: rgb(201, 35, 179);
  letter-spacing: 1px;
  text-transform: none;
  justify-content: center;
  text-align: center;
+ font-size: 25px;
 }
 
-.p {
+.homeText {
     color: rgb(110, 108, 110);
     letter-spacing: 1px;
     text-transform: none;
