@@ -48,15 +48,16 @@ export class ScoreTable extends Component {
     const { column, data, direction } = this.state
     
     return (
-        <div>
+        <div data-test="ScoreTableComponent">
+             <br/>
              <h3  className="scoreTitle">Score Board</h3>
-             <h5 className="h4">Click table title to sort ascending or descending</h5>
+             <h5 className="h4">Please click column title to sort ascending or descending order</h5>
           <div>
               {
                 Array.isArray(this.state.data) ?
 
-                <Table data-test="ScoreTableComponent" sortable celled fixed>
-                  <Table.Header data-test="TableHeader">
+                <Table sortable celled fixed>
+                  <Table.Header>
                     <Table.Row>
                     <Table.HeaderCell
                         sorted={column === 'id' ? direction : null}

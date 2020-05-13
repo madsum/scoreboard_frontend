@@ -12,11 +12,10 @@ body {
   
   h2 {
     font-weight: 100;
-    color: #8774f1;
+    color:  rgb(201, 35, 179);
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 10px;
-    border-bottom: 1px solid #8774f1;
     letter-spacing: 6px;
     width: 340px;
   }
@@ -59,11 +58,9 @@ body {
     font-weight: 500;
   }
 
-
-  
   input[type="submit"] {
-    background: #2f16bf;
-    color: white;
+    background: rgb(201, 35, 179);
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     border: none;
     margin-top: 40px;
@@ -71,7 +68,7 @@ body {
     font-size: 16px;
     font-weight: 100;
     letter-spacing: 10px;
-    width: 150px;
+    width: 220px;
   }
   
   input[type="submit"]:hover {

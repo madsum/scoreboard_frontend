@@ -38,9 +38,11 @@ function NewScoreForm(props) {
 
     return (
       <form onSubmit={handleSubmit(onSubmit)} data-test="NewScoreForm" >
-  
+        <br/>
         <h2><b>Add New Score</b></h2>
         <br/>
+        <label style={{display: 'inline'}}>Team name: </label>
+
         <input value={score.team}
           name="team" type="text"
           placeholder="Team Name"
@@ -48,7 +50,7 @@ function NewScoreForm(props) {
           ref={register({ required: true })} />
         <ErrorMessage error={errors.team} />
         <br />
-  
+        <label style={{display: 'inline'}}>Point: </label>
         <input value={score.point}
           name="point" type="number"
           placeholder="0"
@@ -56,7 +58,7 @@ function NewScoreForm(props) {
           ref={register({ required: true })} />
         <ErrorMessage error={errors.point} />
   
-        <input type="submit" value="submit" />
+        <input type="submit" value="add score" />
 
       </form>
     );
