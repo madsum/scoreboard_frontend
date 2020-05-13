@@ -9,7 +9,7 @@ export default class CurdApi {
         point: data.point? data.point : 0
       }
   
-      axios.post('http://localhost:8080/score', score)
+      axios.post('https://scoreboard-backend-dev.herokuapp.com/score', score)
         .then(res => {
           history.push({
             pathname: "/ViewScore",
@@ -32,7 +32,7 @@ export default class CurdApi {
   
     static async getAllScore() {
       try {
-        const response = await fetch(`http://localhost:8080/all/score`);
+        const response = await fetch(`https://scoreboard-backend-dev.herokuapp.com/all/score`);
         const json = await response.json();
         return json;
       } catch (error) {
