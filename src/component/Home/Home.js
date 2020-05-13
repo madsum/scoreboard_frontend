@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-//import { Button } from 'react-bootstrap';
 import { Button } from 'semantic-ui-react'
 import history from '../../history';
 import "./Home.css";

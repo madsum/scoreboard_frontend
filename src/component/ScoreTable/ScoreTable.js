@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import _ from 'lodash'
+import { Button } from 'semantic-ui-react'
+import history from '../../history';
+
 import { Table } from 'semantic-ui-react'
 import CurdApi from '../../Utils/CurdApi'
 import 'semantic-ui-css/semantic.min.css';
@@ -93,6 +96,8 @@ export class ScoreTable extends Component {
                 : <h1>{this.state.data}</h1>
               }
           </div>
+          <br/>
+          <Button basic color='green' onClick={() => history.push('/AddScore/Add Score')}>Add Score</Button>
           </div>
         )
     }
